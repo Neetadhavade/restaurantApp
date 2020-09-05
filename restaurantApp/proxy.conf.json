@@ -1,0 +1,11 @@
+
+{
+    "/login": {
+      "target": "http://42293e574d9d.ngrok.io/api/users/validate_username",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/login": ""
+      }
+    }
+  }
